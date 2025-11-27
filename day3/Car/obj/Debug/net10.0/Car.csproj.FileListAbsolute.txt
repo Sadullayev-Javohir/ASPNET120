@@ -1,0 +1,14 @@
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\bin\Debug\net10.0\Car.exe
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\bin\Debug\net10.0\Car.deps.json
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\bin\Debug\net10.0\Car.runtimeconfig.json
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\bin\Debug\net10.0\Car.dll
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\bin\Debug\net10.0\Car.pdb
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\Car.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\Car.AssemblyInfoInputs.cache
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\Car.AssemblyInfo.cs
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\Car.csproj.CoreCompileInputs.cache
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\Car.dll
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\refint\Car.dll
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\Car.pdb
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\Car.genruntimeconfig.cache
+C:\Users\javohir\Desktop\ASP.NET\day3\Car\obj\Debug\net10.0\ref\Car.dll
