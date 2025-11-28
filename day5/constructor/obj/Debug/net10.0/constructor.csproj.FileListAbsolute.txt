@@ -1,0 +1,15 @@
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\constructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\constructor.AssemblyInfoInputs.cache
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\constructor.AssemblyInfo.cs
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\constructor.csproj.CoreCompileInputs.cache
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\constructor.sourcelink.json
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\bin\Debug\net10.0\constructor.exe
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\bin\Debug\net10.0\constructor.deps.json
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\bin\Debug\net10.0\constructor.runtimeconfig.json
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\bin\Debug\net10.0\constructor.dll
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\bin\Debug\net10.0\constructor.pdb
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\constructor.dll
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\refint\constructor.dll
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\constructor.pdb
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\constructor.genruntimeconfig.cache
+C:\Users\javohir\Desktop\ASP.NET\day5\constructor\obj\Debug\net10.0\ref\constructor.dll
