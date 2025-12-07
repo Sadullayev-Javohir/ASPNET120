@@ -1,0 +1,27 @@
+@model List<BookProject.Models.Guest>
+
+<h2>Mehmonlar ro'yxati</h2>
+
+<a href="/GuestBook/Add" class="btn btn-primary">Yangi Mehmon qo'shish</a>
+
+<table class="table table-bordered table-striped ">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Ism</th>
+      <th>Description</th>
+      <th>Sana</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var guest in Model)
+    {
+      <tr>
+        <td>@guest.Id</td>
+        <td>@guest.Title</td>
+        <td>@guest.Description</td>
+        <td>@guest.Date.ToString("dd-MM-yyyy HH:mm:ss")</td>
+      </tr>
+    }
+  </tbody>
+</table>
