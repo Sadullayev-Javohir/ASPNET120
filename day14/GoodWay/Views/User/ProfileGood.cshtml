@@ -1,0 +1,14 @@
+@model GoodWay.Models.UserProfileViewModel;
+
+<h2>Foydalanuvchi Model</h2>
+
+<div class="card">
+  <h3>@Model.FullName</h3>
+  <p>Email: @Model.Email</p>
+  <p>Yosh: @Model.Age</p>
+
+  @if (Model.IsPremiumUser)
+  {
+    <span class="badge bg-success">Premium A'zosi</span>
+  }
+</div>

@@ -1,0 +1,27 @@
+@model List<ProductProject.Models.Product>
+
+@{
+  ViewData["Title"] = "Products";
+}
+
+<h2>Products List</h2>
+
+<a class="btn btn-success mb-3" asp-controller="Products" asp-action="Create">Add New Product</a>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var item in Model)
+    {
+      <tr>
+        <td>@item.Name</td>
+        <td>@item.Price</td>
+      </tr>
+    }
+  </tbody>
+</table>

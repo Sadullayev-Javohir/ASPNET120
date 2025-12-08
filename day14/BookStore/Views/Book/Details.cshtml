@@ -1,0 +1,12 @@
+@model BookStore.Models.BookViewModel
+
+<h2>@Model.Title</h2>
+
+<p><strong>Muallif: </strong>@Model.Author</p>
+
+<p><strong>Narxi: </strong>@Model.Price so'm</p>
+
+@if (Model.IsBestseller)
+{
+  <p style="color: red; font-weight: bold; font-size: 20px;">BESTSELLER</p>
+}

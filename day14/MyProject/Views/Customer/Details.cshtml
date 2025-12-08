@@ -1,0 +1,47 @@
+@Model MyProject.Models.CustomerDetailViewModel
+
+@{
+  ViewData["Title"] = Model.PageTitle;
+}
+
+<h2>@Model.PageTitle</h2>
+
+<div class="card p-3 mb-4">
+  <h3>@Model.FullName</h3>
+  <p><strong>Email:</strong> @Model.Email</p>
+  <p><strong>Telefon:</strong> @Model.Phone</p>
+</div>
+
+<h3>Buyurtmalar ro'yxati</h3>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Sana</th>
+      <th>Summa</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    @foreach(var order in Model.Orders)
+    {
+      <tr>
+        <td>@order.OrderId</td>
+        <td>@order.Date.ToString("dd.MM.yyyy, HH:mm:ss")</td>
+        <td>@order.TotalAmount so'm</td>
+        <td>
+          @if (order.IsPaid)
+          {
+            <span class="badge bg-success">To'langan</span>
+          }
+          else
+          {
+            <span class="badge bg-danger">To'lanmagan</span>
+          }
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
