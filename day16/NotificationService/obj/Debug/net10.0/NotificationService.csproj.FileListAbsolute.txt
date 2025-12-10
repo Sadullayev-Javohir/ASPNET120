@@ -1,0 +1,7 @@
+C:\Users\javohir\Desktop\ASP.NET\day16\NotificationService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\javohir\Desktop\ASP.NET\day16\NotificationService\obj\Debug\net10.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javohir\Desktop\ASP.NET\day16\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\javohir\Desktop\ASP.NET\day16\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfo.cs
+C:\Users\javohir\Desktop\ASP.NET\day16\NotificationService\obj\Debug\net10.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\javohir\Desktop\ASP.NET\day16\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\javohir\Desktop\ASP.NET\day16\NotificationService\obj\Debug\net10.0\NotificationService.sourcelink.json
