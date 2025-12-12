@@ -1,0 +1,40 @@
+﻿@model Project3.Models.PortfolioViewModel
+
+@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<div>
+  <h1>@Model.FullName</h1>
+  <p>@Model.Bio</p>
+  <a href="/swagger">Api orqali skills ro'yxati</a>
+</div>
+
+<div>
+  <div>
+    <h3>My Skills</h3>
+    <ul>
+      @foreach(var skill in Model.Skills)
+      {
+        <li>@skill.Name
+          <span>@skill.Level</span>
+        </li>
+      }
+    </ul>
+  </div>
+
+  <div>
+    <h3>My Projects</h3>
+    <div>
+      @foreach(var project in Model.Projects)
+      {
+        <div>
+          <h5>@project.Title</h5>
+          <p>@project.Description</p>
+          <a href="@project.Url">Ko'proq -> </a>
+        </div>
+      }
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,47 @@
+﻿@model MyPortfolio.Models.PortfolioViewModel
+
+@{
+  ViewData["Title"] = "Portfolio";
+}
+
+<div class="text-center py-5 bg-light rounded-3">
+  <h1 class="display-4 fw-bold">@Model.FullName</h1>
+  <p class="lead text-muted">@Model.Bio</p>
+  <a href="/swagger" class="btn btn-outline-primary mt-3">Api orqali Skills ro'yxatini ko'rish</a>
+</div>
+
+<div class="row mt-3">
+  @* Skills section *@
+
+  <div class="col-md-6">
+    <h3 class="border-bottom pb-2">My Skills 🛠</h3>
+    <ul class="list-group mt-3">
+      @foreach(var skill in Model.Skills)
+      {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          @skill.Name
+          <span class="badge bg-primary rounded-pill">@skill.Level</span>
+        </li>
+      }
+    </ul>
+  </div>
+
+  @* Project Section *@
+  <div class="col-md-6">
+    <h3 class="border-bottom pb-2">My Projects 🚀</h3>
+    <div class="row mt-3">
+      @foreach(var project in Model.Projects)
+      {
+        <div class="col-12 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">@project.Title</h5>
+              <p class="card-text">@project.Description</p>
+              <a href="@project.Url" class="card-link">Ko'proq o'qish -></a>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</div>

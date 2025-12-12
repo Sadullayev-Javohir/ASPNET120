@@ -1,0 +1,12 @@
+@model List<Project4.Models.PortfolioItem>
+
+<h2>Portfolio</h2>
+
+<ul>
+  @foreach(var item in Model)
+  {
+    <li>
+      <strong>@item.Title</strong> - @item.Description
+    </li>
+  }
+</ul>
