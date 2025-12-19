@@ -1,0 +1,6 @@
+@DeepConfigApp_HostAddress = http://localhost:5170
+
+GET {{DeepConfigApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
