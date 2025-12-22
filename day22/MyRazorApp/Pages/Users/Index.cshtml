@@ -1,0 +1,22 @@
+@page
+@model MyRazorApp.Pages.Users.IndexModel
+
+<h2>Foydalanuvchi ro'yxati</h2>
+
+<a asp-page="./Create" class="btn btn-success">Yangi qo'shish</a>
+
+<table class="table mt-3">
+  <thead>
+    <tr>
+      <th >ID</th>
+      <th>ISM</th>
+    </tr>
+  </thead>
+  @foreach(var user in Model.Users)
+  {
+    <tr>
+      <td>@user.Id</td>
+      <td>@user.Name</td>
+    </tr>
+  }
+</table>

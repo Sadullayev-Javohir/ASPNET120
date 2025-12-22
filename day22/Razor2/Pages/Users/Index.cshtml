@@ -1,0 +1,24 @@
+@page
+@model Razor2.Pages.Users.IndexModel
+
+<h1>Users</h1>
+
+<a asp-page="./Create" class="btn btn-success">Create</a>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var u in Model.Users)
+    {
+      <tr>
+        <td>@u.Id</td>
+        <td>@u.Name</td>
+      </tr>
+    }
+  </tbody>
+</table>

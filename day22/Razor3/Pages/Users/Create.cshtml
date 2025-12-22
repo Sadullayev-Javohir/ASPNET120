@@ -1,0 +1,15 @@
+@page
+@model Razor3.Pages.Users.CreateModel
+
+<h2>Create User</h2>
+
+<form method="post">
+  <label asp-for="User.Name"></label>
+  <input asp-for="User.Name">
+  <span asp-validation-for="User.Name"></span>
+
+  <br>
+  <br>  
+
+  <button class="btn btn-primary" type="submit">Save</button>
+</form>
